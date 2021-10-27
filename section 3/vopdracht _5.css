@@ -1,0 +1,16 @@
+.hallo{
+    width:  300px;
+    height: 300px;
+    padding: 125px;
+    border: 10px solid blue;
+    box-sizing: border-box;
+
+}
+
+.doei{
+    width:  300px;
+    height: 300px;
+    padding: 125px;
+    border: 10px solid red;
+    box-sizing: content-box;
+}

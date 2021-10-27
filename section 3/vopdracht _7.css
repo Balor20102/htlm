@@ -1,0 +1,90 @@
+.One{
+background-color: yellow;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: top;
+text-align: center;
+
+}
+
+.Two{
+background-color: red;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: top;
+text-align: center;
+}
+
+.Three{
+background-color: blue;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: top;
+text-align: center;
+}
+
+.Four{
+background-color: green;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: middle;
+text-align: center;
+}
+
+.Five{
+background-color: white;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: middle;
+text-align: center;
+}
+
+.Six{
+background-color: purple;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: middle;
+text-align: center;
+}
+
+.Seven{
+background-color: grey;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: bottom;
+text-align: center;
+}
+
+.Eight{
+background-color: pink;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: bottom;
+text-align: center;
+}
+
+.Nine{
+background-color: orange;
+width: 33%;
+height: 230px;
+padding-top: 70px;
+float: left;
+float: bottom;
+text-align: center;
+}

@@ -1,0 +1,41 @@
+.clearfix::after{
+content: "";
+display: table;
+clear: both;
+
+}
+
+h1{
+    color: rgb(122, 48, 192);
+    font-size: 50px;
+}
+
+p{ 
+    font-size: 18px;
+    text-align: justify;
+
+}
+.container{
+    width: 1140;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.blog-post{
+   
+    width: 70%;
+    padding-right: 20px;
+    float: left;
+    
+}
+.other-posts{
+
+width: 27%;
+float: left;
+}
+
+.author{
+    border-top: 1px solid grey;
+    padding-top: 20px;
+}

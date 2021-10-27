@@ -1,0 +1,35 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1{
+    font-size: 30px;  
+}
+h1,h6{
+    color: darkgreen;
+}
+h2{
+    font-size: 20;
+    color: red;
+}
+h3{
+    width: 700px;
+    
+}
+h4{
+    font-size: 30px;
+}
+h3,h4{
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+h5{
+    font-size: 20px;
+    color: green;
+    margin-top: 10px;
+}
+h6{
+    font-size: 100px;
+    margin-top:50px;
+}
