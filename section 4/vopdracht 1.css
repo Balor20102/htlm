@@ -1,0 +1,9 @@
+.h1,.container{
+    font-family: serif;
+    font-size: 20px;
+    max-width: 80ch;
+    line-height: 150%;
+}
+.h1{
+    font-weight: bold;
+}
