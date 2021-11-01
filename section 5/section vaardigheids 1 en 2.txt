@@ -1,0 +1,4 @@
+1.	Geef de code waardoor je gebruik kan maken van het lettertype ‘Mukta’ op je website.
+Font-family: ‘Mukta’, ‘Arial’, sans-serif;
+
+2.	Geef een voorbeeld van een media query en leg uit wat de media query doet.
