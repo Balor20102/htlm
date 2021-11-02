@@ -1,0 +1,11 @@
+img{
+    width: 1520px;
+    height: 350px;
+}
+
+a{
+    text-transform:uppercase ;
+}
+.header-h1{
+    text-transform: lowercase;
+}
