@@ -1,0 +1,28 @@
+.tijger1{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 0%;
+}
+
+.tijger2{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 25%;
+}
+
+.tijger3{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 50%;
+}
+
+.tijger4{
+    position: absolute;
+    width: 24%;
+    left: 75%;
+    top: 0%;
+    clip: rect(0px,400px,250px,0px);
+}
