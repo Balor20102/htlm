@@ -1,0 +1,27 @@
+.button{
+    text-align: center;
+    width: 12%;
+    height: 30px;
+    float: left;
+    margin-left: 5px;
+}
+
+.button1{
+    background-color: green; 
+    border-color: green;   
+}
+
+.button2{
+    background-color: yellow;
+    border-color: yellow;
+}
+
+.button3{
+    background-color: red;
+    border-color: red;
+}
+
+.button4{
+    background-color: blue;
+    border-color: blue;
+}
