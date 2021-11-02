@@ -1,0 +1,7 @@
+.link2{
+    color: green;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: green;
+}
