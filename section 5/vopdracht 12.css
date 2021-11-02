@@ -1,0 +1,57 @@
+img{
+    transition: 0.5s;
+}
+
+img:hover{
+    transform: scale(1.2);
+}
+
+.tijger1{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 0%;
+}
+
+.tijger2{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 25%;
+}
+
+.tijger3{
+    position: absolute;
+    width: 25%;
+    top: 0%;
+    left: 50%;
+}
+
+.tijger4{
+    position: absolute;
+    width: 24%;
+    left: 75%;
+    top: 0%;
+    clip: rect(0px,400px,500px,0px);
+}
+
+.tijger5{
+    position: absolute;
+    width: 25%;
+    top: 34%;
+    left: 0%;
+}
+
+.tijger6{
+    position: absolute;
+    width: 25%;
+    top: 34%;
+    left: 25%;
+}
+
+.tijger7{
+    position: absolute;
+    width: 25%;
+    top: 34%;
+    left: 50%;
+}
