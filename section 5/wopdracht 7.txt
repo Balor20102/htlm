@@ -1,0 +1,3 @@
+h2 is een block element dus die gebruikt het hele scherm gebruikt
+ en doordat het voor auto voor links en rechts dus de border is het einde 
+ inplaats van de border van een div element
