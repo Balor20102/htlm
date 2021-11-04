@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="wopdracht 10.css">
+        <link rel="stylesheet" href="grid.css">
+    </head>
+    
+    <body>
+        <header>
+            <img src="tiger.jpg" alt="tijger" class="responsive">
+        </header>
+        <section class="section-form">
+            <div class="row">
+                <h1>Contantformulier</h1>
+            </div>
+            <div class="row">
+                <form methode="post" action="#" class="contact-form">
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label> Naam</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="text" name="Naam" placeholder="Naam" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label> Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" placeholder="email" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label> Wachtwoord</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="password" name="password" placeholder="Wachtwoord" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Geslacht</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="geslacht" id="geslacht">
+                                <option value="man">man</option>
+                                <option value="vrouw">vrouw</option>
+                                <option value="anders">anders</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>Media</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="radio" id="nieuwsbrief" name="media" value="nieuwsbrief">
+                            <label for="nieuwsbrief">nieuwsbrief</label> <br>
+                            <input type="radio" id="mailing" name="media" value="mailing">
+                            <label for="mailing">mailing</label> <br>
+                            <input type="radio" id="post" name="media" value="post">
+                            <label for="post">post</label> 
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <input type="submit" value="Stuur mij op!"> 
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </body>
+
+</html>

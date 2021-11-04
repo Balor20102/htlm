@@ -1,0 +1,9 @@
+9. Testen van je programmeerwerk kan als je denkt klaar te zijn of gedurende het bouwen. Geef
+aan hoe je getest heb en waarom je het op die manier gedaan hebt. Geef ook aan wat volgens
+jou de beste manier van testen is en waarom.
+
+gedurende het bouwen, ik vind het zelf fijner wanneer ik type gelijk mee te kijken hoe het er uitzien. 
+want dan kan ik al aanpassingen toepassen.
+
+dit is volgens mij ook de beste manier want als iets mis is dan kan je gelijk kijken waarom het niet werkt
+, want als je denk dat je klaar bent en dan het opstart en er zijn veel fouten weet je niet waar je moet beginnen

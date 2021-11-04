@@ -1,0 +1,3 @@
+Met @import kan je een stylesheet importeren in een andere stylesheet 
+bv: ik werk in wopdracht 3.css en ik heb code nodig uit wopdracht 1.css dan kan ik @import wopdracht 1.css gebruiken 
+en dan hoef ik niet de zelfde code nog een keer te schrijven 
