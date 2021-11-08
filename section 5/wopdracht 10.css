@@ -39,6 +39,10 @@
      height: 25px;
      border-color: orange;
  }
+ .sub{
+     width: 120px;
+     height: 20px;
+ }
 
   /* -------------------------------------------------*/
   /* img */
