@@ -49,3 +49,12 @@
      height: auto;
      max-height: 400px;
  }
+  
+  /* -------------------------------------------------*/
+  /* container*/
+  /* -------------------------------------------------*/
+  .container{
+      display: block;
+      position: relative;
+      padding-top: 0%;
+  }
