@@ -1,0 +1,19 @@
+1. Wat zijn media-queries?
+    een media query is een stukje code in de css stylesheet van je website,
+    dat informatie zoals de grootte van het browserscherm van de bezoeker opvraagt tijdens het laden van jouw website
+
+2. Geef een voorbeeld van media-queries?
+@media only screen and (maxwidth: 1023px){}
+
+3. Wat betekent “-webkit-background-color: red;”?
+zet op chrome en android en ois de achtergrond kleur naar rood
+
+4. Wat betekent “-moz-font-size: 2rem”?
+zet de font-size van firefox naar 2rem.
+
+5. Het testen van je werk is superbelangrijk in programmeren. Geef drie redenen waarom testen
+zo belangrijk is.
+
+1. kijken of het werkt,
+2. hoe het eruit ziet
+3. controlen
