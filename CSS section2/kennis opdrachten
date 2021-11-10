@@ -1,0 +1,24 @@
+1. met ../ ga je een folder naar boven 
+en dan folder images .
+
+2. als de positie absolute is dan is het link boven 
+van de div parent of van de body
+
+3. @keyframes gebruik je als je animatie wilt maken in css
+
+4. transform en opactity, anders krijgt de webbrowser moeite.
+
+5. Een pseudo-class selector is vergelijkbaar met een klasse in CSS, 
+maar heeft als basis een dubbele punt gevolgd door de naam van de pseudo-class.
+
+6. a:link
+   a:visited
+   a:hover
+
+7.rood
+
+8.blauw
+
+9. tekst align
+
+10.als je er opklikt
