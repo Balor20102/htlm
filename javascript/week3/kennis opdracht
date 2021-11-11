@@ -15,31 +15,61 @@
 
 6. <script scr =" "> </script>
 
-7.
+7. value zijn waardes, zoals getallen of waar of nietwaar
 
-8.
-9.
+8. variabele is iets waar je een waarden aan kan geven
+
+9. is een naam van een variabele
+
 10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
+let firstName(variable name) = ("Jonas")(Jonas is value)
+
+11. coneventie zijn regels waar iedereen zich aanhoud
+    voor Javascript betekend dit een variabele name schrijf je alleen het eerst woord met een kleine letter
+
+12. a
+
+13. c
+
+14. is iets fout gegaan met het schrijven van code
+
+15. semantische fout is een logische fout in de code
+
+16. syntactische fout is een grammaticale fout en semantische fout is een logische fout
+
+17. boolean is true of false en number zijn floats dus een getal met de 1 getal achter de komma
+
+18. om code even te negeren
+    voor uit leg
+
+19."herder" is een string, en herder is een variable name
+
+20. null moet undefined zijn maar er staat object
+
+21. 1b
+    2a
+    3c
+
+22. const alfa nee, 
+want een constante moet een waarden bij het begin hebben.
+
+23. let beta ja, want die heeft niet bij het begin nog geen waarden nodig
+
+24. =, +, -, *, /
+
+25. jonas = 9 dus jonas heeft de waarden van 9
+ en == betekent dat het gelijk moet zijn aan elkaar.
+
+26. 20
+
+27. 75
+
+28.false
+
+29. -10
+
+30. false
+
 31.
 32.
 33.
