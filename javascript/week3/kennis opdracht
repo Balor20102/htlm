@@ -70,16 +70,25 @@ want een constante moet een waarden bij het begin hebben.
 
 30. false
 
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
-39.
-40.
+31. false
+
+32. true
+
+33. -10
+
+34. 5
+
+35. 75
+
+36.6
+
+37. een soort voorrang dus () gaat voor +
+
+38. 14
+
+39. 17
+
+40. conditional
 
 /*-----------------------------------------------------*/
 /*                   video 17 t/m 19                   */
