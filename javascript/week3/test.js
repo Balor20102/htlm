@@ -1,5 +1,10 @@
-let numberOne = 5;
-let numberTwo = 15;
+const junkfood = false;
+const healthyFood = true;
 
-
-console.log(++numberOne);
+if (!junkfood){
+    console.log("Good for you!")
+} else if (healthyFood && !junkfood){
+    console.log("Great")
+} else {
+    console.log("Don't know what to say...")
+}

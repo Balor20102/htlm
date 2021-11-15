@@ -94,58 +94,79 @@ want een constante moet een waarden bij het begin hebben.
 /*                   video 17 t/m 19                   */
 /*-----------------------------------------------------*/
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
+1. string is een variabele
+ waar je woorden in kan zetten
+
+2. +
+
+3. Jorn is stupid
+
+4.  Jorn is briljant
+
+5. Hello Jorn
+
+6. de zelfde operater die je gebruikt tijdens i am
+
+7. boolean
+
+8. als het waar is dan voert het een andere code uit 
+   dan als het niet waar is.
+
+9. want er gebeurd wat anders bij if en bij else
 
 /*-----------------------------------------------------*/
 /*                     20 t/m 25                       */
 /*-----------------------------------------------------*/
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
-15.
-16.
-17.
-18.
-19.
-20.
-21.
-22.
-23.
-24.
-25.
-26.
-27.
-28.
-29.
-30.
-31.
-32.
-33.
-34.
-35.
-36.
-37.
-38.
+1. bij conversion moet je aan geven welke waardeb het word van string naar number of number naar string
+
+2. (Number())
+
+3. (string())
+4. 43
+5. -12
+6. 2512
+7. 37
+8. 5512
+9. 22
+10. 5512
+
+11. een value zonder een waarden
+12. een value met een waarden
+
+13. niet waar
+14. niet waar
+15. niet waar
+16. waar
+17. niet waar
+18. waar
+19. niet waar
+20. niet waar
+21. waar
+
+22. == is een losse vergelijking dus als je ene string hebt met "18" en het getal 18 dan is het true
+     met === is het false
+
+23. Ok...
+24. het begin van het begin
+25. Het begin van het begin - nog steeds
+
+26. nee   
+27. ja
+28. ja
+29. ja
+30. nee
+31. if ( !==5 ) dus als het niet gelijk is aan 5 gaat de code verder
+
+32. true
+33. true
+34. true
+
+35. You do something you like, probably in de public sector!
+36. You do something you like, probably in de public sector!
+
+37. I want JUNKFOOD!
+38. je kan ook de ! voor elke junkfood weg halen
 
 /*-----------------------------------------------------*/
 /*                       26 t/m 30                     */
