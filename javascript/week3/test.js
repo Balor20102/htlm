@@ -1,10 +1,10 @@
-const junkfood = false;
-const healthyFood = true;
-
-if (!junkfood){
-    console.log("Good for you!")
-} else if (healthyFood && !junkfood){
-    console.log("Great")
-} else {
-    console.log("Don't know what to say...")
+const dayOfTheWeek = "Monday";
+switch(dayOfTheWeek){
+    case "Monday":
+    case "Thursday":
+        console.log("konijn!");
+    case "Tuesday": 
+        console.log("Koe!");
+    default:
+        console.log("vos!");
 }

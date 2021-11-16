@@ -172,17 +172,34 @@ want een constante moet een waarden bij het begin hebben.
 /*                       26 t/m 30                     */
 /*-----------------------------------------------------*/
 
-1.
-2.
-3.
-4.
-5.
-6.
-7.
-8.
-9.
-10.
-11.
-12.
-13.
-14.
+1. switch statement zijn een soort if en if else statement 
+   gebruik je voor meerder statements
+
+2. waards in de code zetten voor het proberen van de code
+
+3.  anders leest het programma de code door en met een break stop het.
+    
+    const day = 'monday';
+    switch(day){
+        case 'monday':
+            console.log ("Konijn!");
+        case "tuesday":
+            console.log("Koe!");
+            break;
+    }
+    als day = "monday" krijg je konijn! en Koe! in de console 
+    en als er tussen monday en tuesday een break komt te staan krijg je alleen koe
+
+4. Konijn!
+5. Konijn!
+6. er verschijnt niks
+
+7. Konijn! Koe! Vos!
+8. Koe! Vos!
+9. Vos!
+10.Vos!
+11.Vos!
+12.Konijn!
+13. expression is a = 2 en een statement is een code zoals if 
+14. voor een if statement op 1 regel
+    const drink = age >= 18 ? "wine🍷" : "water 💧";
