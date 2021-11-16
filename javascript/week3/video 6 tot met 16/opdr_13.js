@@ -4,3 +4,5 @@ myAge = undefined;
 
 myAge = heden - geboorteJaar;
 console.log( 2 * myAge);
+
+console.log ( 2**8)
