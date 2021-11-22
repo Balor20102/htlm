@@ -1,0 +1,23 @@
+div{
+    background-color: yellow;
+    width: 300px;
+    height: 50px;
+}
+.first-div{
+    background-color: blue;
+}
+div.first-div#first-div {
+    background-color: red;
+    /* height 250px */
+}
+#first-div {
+    background-color: green;
+    width: 35px;
+}
+.first-div#first-div{
+    background-color: purple;
+    width: 500px;
+}
+.first-div.second-div.third-div.fourth-div{
+    background-color: aqua;
+}
