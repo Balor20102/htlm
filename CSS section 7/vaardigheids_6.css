@@ -1,0 +1,93 @@
+
+.flex-container{
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    flex-wrap: wrap;
+
+
+}
+.flex__child{
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    height: 300px
+
+}
+
+.i1{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.i2{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+    text-align: center;
+}
+
+.i3{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: blue;
+    text-align: center;
+}
+
+.i4{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: purple;
+    text-align: center;
+}
+
+.i5{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.i6{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+    text-align: center;
+ 
+}
+
+.i7{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: blue;
+    text-align: center;
+}
+
+.i8{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: purple;
+    text-align: center;
+}
+
+.i9{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+    text-align: center;
+}
+
+.i10{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+    text-align: center;
+}

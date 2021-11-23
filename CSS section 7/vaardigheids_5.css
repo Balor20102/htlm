@@ -1,0 +1,83 @@
+
+.flex-container{
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    flex-wrap: wrap;
+
+
+}
+.flex__child{
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    height: 300px
+
+}
+
+.i1{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+}
+
+.i2{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+}
+
+.i3{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: blue;
+}
+
+.i4{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: purple;
+}
+
+.i5{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+}
+
+.i6{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+ 
+}
+
+.i7{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: blue;
+}
+
+.i8{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: purple;
+}
+
+.i9{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: yellow;
+}
+
+.i10{
+    height: 100px;
+    flex-basis: 150px;
+    background-color: red;
+}

@@ -1,0 +1,24 @@
+
+.flex-container{
+    margin: 30px;
+    padding: 20px;
+
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.flex__child{
+    padding: 10px;
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    height: 300px
+    
+}
+

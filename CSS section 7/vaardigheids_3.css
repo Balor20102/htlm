@@ -1,0 +1,69 @@
+
+.flex-container{
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+
+}
+.flex__child{
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    height: 300px
+
+}
+
+.i1{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i2{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i3{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i4{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i5{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i6{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i7{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i8{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i9{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}
+
+.i10{
+    flex-basis: 300px;
+    flex-shrink: 0;
+}

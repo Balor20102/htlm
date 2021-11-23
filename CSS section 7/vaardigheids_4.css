@@ -1,0 +1,73 @@
+
+.flex-container{
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    width: 800px;
+    
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+
+    flex-wrap: wrap;
+
+
+}
+.flex__child{
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    height: 300px
+
+}
+
+.i1{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i2{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i3{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i4{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i5{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i6{
+    height: 100px;
+    flex-basis: 150px;
+ 
+}
+
+.i7{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i8{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i9{
+    height: 100px;
+    flex-basis: 150px;
+}
+
+.i10{
+    height: 100px;
+    flex-basis: 150px;
+}
