@@ -1,0 +1,49 @@
+.flex-container{
+    outline: 5px;
+    outline-style: solid;
+    outline-color: black ;
+    width: 200px;
+    height: 500px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+
+.flex__child{
+    outline: 3px;
+    outline-style: solid;
+    outline-color: green;
+    flex: auto;
+    overflow: visible;
+}
+
+.i1{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    background-color: yellow;
+    text-align: center;
+    padding: auto;
+}
+
+.i2{
+    flex-basis: 150px;
+    background-color: red;
+    text-align: center;
+    padding: auto;
+}
+
+.i3{
+    flex-basis: 150px;
+    background-color: blue;
+    text-align: center;
+    padding: auto;
+}
+
+.i4{
+    flex-basis: 150px;
+    background-color: purple;
+    text-align: center;
+    padding: auto;
+    margin-bottom: 10px;
+}
