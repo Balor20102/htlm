@@ -2,9 +2,10 @@
     outline: 5px;
     outline-style: solid;
     outline-color: black ;
-    width: 600px;
-    
+    width: 300px;
+    height: 600px;
     display: flex;
+    flex-direction: column-reverse;
 }
 .flex__child{
     outline: 3px;
@@ -12,23 +13,34 @@
     outline-color: green;
     
     flex-basis: 30rem;
-    height: 150px;
+    height: 100px;
     text-align: center ;
-    padding-top: 140px;
+
+    padding-top: 30px;
+
+    font-size: 40px;
 }
 
 .flex-container :first-child{
     background-color: yellow;
+    flex-basis: 75px;
+    margin-left:250px;
+    padding: 10px;
 }
 
 .flex-container :nth-child(2){
     background-color: red;
+
 }
 
 .flex-container :nth-child(3){
     background-color: blue;
+    margin-right: 250px;
 }
 
 .flex-container :last-child{
     background-color: purple;
+    flex-basis: 75px;
+    margin: 0 130px;
+    padding: 10px;
 }

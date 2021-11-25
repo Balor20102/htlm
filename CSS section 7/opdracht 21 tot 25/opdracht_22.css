@@ -2,7 +2,7 @@
     outline: 5px;
     outline-style: solid;
     outline-color: black ;
-    width: 600px;
+    width: 200px;
     
     display: flex;
 }
@@ -27,6 +27,8 @@
 
 .flex-container :nth-child(3){
     background-color: blue;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .flex-container :last-child{
