@@ -1,0 +1,40 @@
+
+.flex-container{
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Properties{
+    outline: 5px dashed;
+    outline-color: black;
+    padding: 5px;
+    background-color: rgb(252, 175, 245);
+}
+
+.container-1{
+    float: left;
+    padding: 5px;
+    outline: 2px solid;
+    outline-color: black;
+    margin-right: 5px;
+}
+
+.container-2{
+    float:  left ;
+    padding: 5px;
+    height: 607px;
+    outline: 2px solid;
+    outline-color: black;
+}
+
+.text{
+    outline: 2px dashed;
+    outline-color: rgb(5, 177, 5);
+}
+
+h3{
+    background-color: rgb(185, 93, 178);
+}
