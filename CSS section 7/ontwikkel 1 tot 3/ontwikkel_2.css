@@ -14,10 +14,11 @@
 
 .text{
  flex: auto;
+ flex-basis: 150px;
  background-color: rgb(62, 250, 147);
  outline: 2px solid;
  outline-color: black;
- margin: 0 10px;
+ margin: 10px;
  text-align: center;
 }
 
