@@ -1,0 +1,52 @@
+.container{
+height: 500px;
+width: 300px;
+
+    display: grid;
+    background-color: palevioletred;
+
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.item_1{
+    background-color: yellow;
+    grid-row: 1/8;
+    padding-top: 200px;
+
+}
+
+.item_2{
+    background-color: rgb(250, 153, 186);
+    grid-row: 1/8;
+    padding-top: 200px;
+
+}
+
+.item_3{
+    background-color: red;
+    grid-row: 1/8;
+    padding-top: 200px;
+}
+
+.item_4{
+    background-color: blue;
+    grid-row: 1/8;
+    padding-top: 200px;
+}
+
+.item_5{
+    background-color: purple;
+    grid-row: 1/8;
+    padding-top: 200px;
+}
+
+.item_6{
+    background-color: green;
+    grid-row: 1/8;
+    padding-top: 200px;
+}
