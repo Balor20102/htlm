@@ -1,0 +1,32 @@
+.container{
+    display: grid;
+    background-color: palevioletred;
+
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.item_1{
+    background-color: yellow;
+}
+
+.item_2{
+    background-color: rgb(250, 153, 186)
+}
+
+.item_3{
+    background-color: red;
+}
+
+.item_4{
+    background-color: blue;
+}
+
+.item_5{
+    background-color: purple;
+}
+
+.item_6{
+    background-color: green;
+}
