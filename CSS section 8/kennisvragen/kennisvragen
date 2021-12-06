@@ -1,0 +1,36 @@
+.1 floats
+
+.2 grid is twee-dimensionaal layout terwijl flexbox is een
+
+.3 display: grid;
+
+.4 grid-container is de tabel, een grid item is tabelcel
+
+.5 de lijnen tussen de tabelcel
+
+.6 ja want je kan de grid-area aanpassen zodat het even groot is als grid-cell.
+
+.7 1fr betekent dat hij 1 deel pak van de schikbare ruimte.
+
+.8  400px
+.9  600px
+.10 200px
+.11 466px
+
+.12 ja
+
+.13 geen verandering
+
+.14 heeft de grote van 2 tabelcellen
+
+.15 a
+
+.16 b
+
+.17 explicit Grids zijn de vakken van de tabel en implicit Grids zijn de lijnen
+
+.18 
+
+.19 zet alle cellen tot de lengte van het langste item in de cellen 
+.20 zet elke cel grote tot het allemaal in past
+.21 het de cel groter dan het kleinste item maar kleiner dan het grootste item

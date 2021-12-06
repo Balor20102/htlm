@@ -1,0 +1,5 @@
+.grid-container {
+  display: grid;
+  background-color: blue;
+  grid-template-columns: minmax(min-content, 300px)
+}
