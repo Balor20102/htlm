@@ -1,6 +1,6 @@
 .container{
 
-    width: 700px;
+    width: 590px;
     height: 420px;
 
     background-color: palevioletred;
@@ -11,7 +11,7 @@
 }
 
 .outline{
-    width: 700px;
+    width: 590px;
     height: 420px;
 
     display: grid;
@@ -24,7 +24,7 @@
     column-gap: 70px;
 
     grid-template-rows: repeat(7, 100px);
-    grid-template-columns: repeat(7, 230px);
+    grid-template-columns: repeat(7, 150px);
     
     outline: black 2px solid;
 
