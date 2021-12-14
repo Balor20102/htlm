@@ -1,0 +1,102 @@
+.container{
+
+    width: 600px;
+    height: 480px;
+
+    background-color: palevioletred;
+
+    padding: 20px;
+    margin: auto;
+
+}
+
+.outline{
+    width: 580px;
+    height: 470px;
+
+    display: grid;
+
+    row-gap: 20px;
+    column-gap: 20px;
+
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+
+    grid-template-rows: repeat(8, 50px);
+    grid-template-columns: repeat(6, 80px);
+    
+    outline: black 2px solid;
+
+}
+
+.item_0{
+    background-color: bisque;
+    grid-column: span 2;
+
+}
+
+.item_1{
+    background-color: red;
+    grid-row: span 2;
+}
+
+.item_2{
+    background-color: blue;
+    grid-column: 3 span;
+}
+
+.item_3{
+    background-color: purple;
+    grid-column: 2 span;
+    grid-row: 3 span;
+}
+
+.item_4{
+    background-color: green;
+    grid-column: 3 span;
+}
+
+.item_5{
+    background-color: lightblue;
+
+}
+
+.item_6{
+    background-color: yellow;
+    grid-column: 3 span;
+}
+
+.item_7{
+ background-color: bisque;
+ grid-column: 4 span;
+}
+
+.item_8{
+background-color: red;
+grid-row: 2 span;
+}
+
+.item_9{
+background-color: blue;
+}
+
+.item_10{
+background-color: purple;
+grid-row: span 3;
+grid-column: span 4;
+}
+
+.item_11{
+background-color: green;
+grid-row: span 1;
+}
+
+.item_12{
+background-color: lightblue;
+grid-row: span 1;
+}
+
+.item_13{
+background-color: yellow;
+}
