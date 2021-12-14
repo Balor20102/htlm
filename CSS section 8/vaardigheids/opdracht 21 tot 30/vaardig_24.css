@@ -1,0 +1,157 @@
+.container{
+
+    width: 1345px;
+    height: 1000px;
+
+    background-color: palevioletred;
+
+    padding: 20px;
+
+}
+
+.outline{
+    width: 1345px;
+    height: 1000px;
+
+    display: grid;
+
+    row-gap: 5px;
+    column-gap: 5px;
+
+    text-align: center;
+    font-size: 20px;
+
+    grid-template-rows: repeat(37, 20px);
+    grid-template-columns: repeat(6, 220px);
+    
+    outline: black 2px solid;
+}
+
+.item_0{
+    background-color: bisque;
+    grid-column: span 2;
+}
+
+.item_1{
+    background-color: red;
+    grid-row: span 2;
+}
+
+.item_2{
+    background-color: blue;
+    grid-column: span 3;
+
+}
+
+.item_3{
+    background-color: purple;
+    grid-row: 9 span;
+    grid-column: 2 span;
+
+}
+
+.item_4{
+    background-color: green;
+    grid-column: 3 span;
+  
+}
+
+.item_5{
+    background-color: lightblue;
+    grid-row: span 4;
+    
+}
+
+.item_6{
+    background-color: yellow;
+    grid-column: 3 span;
+    grid-row: 4 span;
+ 
+}
+
+.item_7{
+ background-color: bisque;
+ grid-column: 4 span;
+ grid-row: 4 span;
+}
+
+.item_8{
+background-color: red;
+grid-row: 8 span;
+}
+
+.item_9{
+background-color: blue;
+grid-row: 4 span;
+}
+
+.item_10{
+background-color: purple;
+grid-column: 4 span;
+grid-row: 12 span;
+
+}
+
+.item_11{
+background-color: green;
+grid-row: 4 span;
+
+}
+
+.item_12{
+background-color: lightblue;
+grid-row: 4 span;
+
+}
+
+.item_13{
+background-color: yellow;
+grid-row: 4 span;
+}
+
+.item_14{
+    background-color: bisque;
+    grid-column: 2 span;
+    grid-row: 4 span;
+}
+
+.item_15{
+background-color: red;
+grid-row: 8 span;
+}
+
+.item_16{
+background-color: blue;
+grid-row: 4 span;
+grid-column: 3 span;
+}
+
+.item_17{
+    background-color: purple;
+    grid-row: 12 span;
+    grid-column: 2 span;
+}
+
+.item_18{
+    background-color: green;
+    grid-row: 4 span;
+    grid-column: 3 span;
+}
+
+.item_19{
+    background-color: lightblue;
+    grid-row: 4 span;
+}
+
+.item_20{
+    background-color: yellow;
+    grid-row: 4 span;
+    grid-column: 3 span;
+}
+
+.item_21{
+    background-color: bisque;
+    grid-row: 4 span;
+    grid-column: 4 span;
+}
+
