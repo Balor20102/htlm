@@ -1,0 +1,96 @@
+/*---------------------------------------------*/
+/* container___________________________________*/
+/*---------------------------------------------*/
+
+.container{
+
+    width: 660px;
+    height: 660px;
+
+    background-color: palevioletred;
+
+    padding: 20px;
+
+}
+
+/*-------------------------------------------------*/
+/* grid / outline__________________________________*/
+/*-------------------------------------------------*/
+
+.outline{
+    width: 660px;
+    height: 660px;
+
+    display: grid;
+
+    row-gap: 5px;
+    column-gap: 5px;
+
+    text-align: center;
+    font-size: 20px;
+
+    grid-template-rows: repeat(19, 30px);
+    grid-template-columns: repeat(7, 90px);
+    
+    outline: black 2px solid;
+
+
+}
+
+/*---------------------------------------------*/
+/* gezamelijke classes_________________________*/
+/*---------------------------------------------*/
+
+.spanr_4{
+    grid-row: 4 span;
+}
+
+.spanc_4{
+    grid-column: 3 span;
+}
+
+
+/*---------------------------------------------*/
+/* aparte classes______________________________*/
+/*---------------------------------------------*/
+
+.item_0{
+    background-color: bisque;
+}
+
+.item_1{
+    background-color: red;
+    grid-row: 2 span;
+}
+
+.item_2{
+    background-color: blue;
+}
+
+.item_3{
+    background-color: purple;
+    grid-row: 9 span;
+}
+
+.item_4{
+    background-color: green;
+
+}
+
+.item_5{
+    background-color: lightblue;
+}
+
+.item_6{
+    background-color: yellow;
+}
+
+.item_7{
+ background-color: bisque;
+ grid-area: 4 span / 4 span;
+}
+
+.item_8{
+background-color: red;
+ grid-row: 9 span;
+}
