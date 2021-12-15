@@ -1,0 +1,84 @@
+/*---------------------------------------------*/
+/* background color____________________________*/
+/*---------------------------------------------*/
+
+.container{
+
+    width: 500px;
+    height: 500px;
+
+    background-color: palevioletred;
+
+    padding: 20px;
+
+}
+
+/*-------------------------------------------------*/
+/* grid / outline__________________________________*/
+/*-------------------------------------------------*/
+
+.outline{
+    width: 500px;
+    height: 500px;
+
+    text-align: center;
+    font-size: 20px;
+
+    outline: black 2px solid;
+
+    display: grid;
+
+    row-gap: 20px;
+    column-gap: 20px;
+
+    grid-template-rows: repeat(3, 60px);
+    grid-template-columns: repeat(4, 30px);
+    
+    justify-content: center;
+}
+
+/*---------------------------------------------*/
+/* aparte classes______________________________*/
+/*---------------------------------------------*/
+
+.item_0{
+    background-color: bisque;
+    padding-top: 20px;
+}
+
+.item_1{
+    background-color: red;
+    padding-top: 20px;
+
+}
+
+.item_2{
+    background-color: blue;
+    padding-top: 20px;
+}
+
+.item_3{
+    background-color: purple;
+    padding-top: 20px;
+}
+
+.item_4{
+    background-color: green;
+    padding-top: 20px;
+}
+
+.item_5{
+    background-color: lightblue;
+    padding-top: 20px;
+}
+
+.item_6{
+    background-color: yellow;
+    padding-top: 20px;
+}
+
+.item_7{
+ background-color: bisque;
+ padding-top: 20px;
+}
+

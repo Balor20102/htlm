@@ -1,0 +1,75 @@
+/*---------------------------------------------*/
+/* background color____________________________*/
+/*---------------------------------------------*/
+
+.container{
+    width: 300px;
+    height: 200px;
+
+    background-color: palevioletred;
+
+    padding: 20px;
+
+}
+
+/*-------------------------------------------------*/
+/* grid / outline__________________________________*/
+/*-------------------------------------------------*/
+
+.outline{
+    width: 300px;
+    height: 200px;
+
+    text-align: center;
+    font-size: 20px;
+
+    outline: black 2px solid;
+
+    display: grid;
+
+    row-gap: 20px;
+    column-gap: 20px;
+
+    grid-template-rows: repeat(2, 60px);
+    grid-template-columns: repeat(4, 30px);
+    
+    justify-content: center;
+    align-content: center;
+}
+
+/*---------------------------------------------*/
+/* aparte classes______________________________*/
+/*---------------------------------------------*/
+
+.item_0{
+    background-color: bisque;
+}
+
+.item_1{
+    background-color: red;
+}
+
+.item_2{
+    background-color: blue;
+}
+
+.item_3{
+    background-color: purple;
+}
+
+.item_4{
+    background-color: green;
+}
+
+.item_5{
+    background-color: lightblue;
+}
+
+.item_6{
+    background-color: yellow;
+}
+
+.item_7{
+ background-color: bisque;
+}
+
