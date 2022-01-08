@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="opdr_2.css">
+    </head>
+
+    <body>
+        <div class="hoofd">
+            <h1> Grid </h1>
+        <div class="Properties">
+                    <div class="text">
+                        <p> Container Properties </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates a grid </h3>
+                        <p> display: grid || inline-grid; </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates grid columns </h3>
+                        <p> grid-template-columns: length || percentage || fr || line-name </p>
+                    </div>
+                    
+                    <div class="text">
+                        <h3> //Creates grid rows </h3>
+                        <p> grid-template-rows: length || percentage || fr || line-name </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates a grid with specified areas </h3>
+                        <p> grid-template-area: grid-area-name || none || . </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates rows, columns and areas in a single declaration </h3>
+                        <p> grid -template: none (initial values) || grid-template-rows / grid-template-columns </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates spaces between grid-items on the row axis </h3>
+                        <p>  row-gap (grid-row-gap) : length </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates spaces between grid-items on the column axis </h3>
+                        <p> column-gap (grid-column-gap) : length </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Creates spaces between grid-items on the row and column axis </h3>
+                        <p> gap (grid-gap) : grid-row-gap grid-column-gap </p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Align grid items along the inline / row axis</h3>
+                        <p> justify-items: start || end || center || stretch </p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Align grid items along the block / column axis</h3>
+                        <p> aling-items: start || end || center || stretch </p>
+                    </div>
+                    
+                    <div class="text">
+                        <h3>  //Align grid items along the inline and block axis (shorthand) </h3>
+                        <p> place-items: align-items / justify-items </p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Align the whole grid (container) along the inline / row axis </h3>
+                        <p> justify-content: start || end || center || stretch || space-around || space-between || space-evenly</p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Align the whole grid (container) along the block / block axis </h3>
+                        <p> justify-content: start || end || center || stretch || space-around || space-between || space-evenly</p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Align the whole grid (container) along the inline and block axis (shorthand) </h3>
+                        <p> place-content: align-content / justify-content</p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Specifies the size of any auto-genereated grid row </h3>
+                        <p> grid-auto-rows: size ( length || percentage || fr) </p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Specifies the size of any auto-genereated grid column </h3>
+                        <p> grid-auto-columns: size ( length || percentage || fr) </p>
+                    </div>
+
+                    <div class="text">
+                        <h3> //Sets the algorithm that places the grid-items</h3>
+                        <p> grid-auto-flow: row || column || dense </p>
+                    </div>
+
+                    <div class="text">
+                        <h3>  //Shorthand for almost every property </h3>
+                        <p> grid: grid-template-rows grid-template-columns grid-template-areas grid-auto-rows grid-auto-columns grid-auto-flow</p>
+                    </div>
+                </div>
+
+
+
+                <div class="text">
+                    <p> Item Properties </p>
+                </div>
+
+                <div class="text">
+                    <h3> //Determines the column start of an item within the grid </h3>
+                    <p> grid-column-start: line || span (number || name) || auto </p>
+                </div>
+
+                <div class="text">
+                    <h3> //Determines the row start of an item within the grid </h3>
+                    <p> grid-row-start: line || span (number || name) || auto </p>
+                </div>
+                
+                <div class="text">
+                    <h3> //Determines the column end of an item within the grid </h3>
+                    <p> grid-column-end: line || span (number || name) || auto </p>
+                </div>
+
+                <div class="text">
+                    <h3> //Determines the row end of an item within the grid </h3>
+                    <p> grid-row-end: line || span (number || name) || auto </p>
+                </div>
+
+                <div class="text">
+                    <h3> //Shorthand for column start and end </h3>
+                    <p> grid-column: grid-column-start grid-column-end</p>
+                </div>
+
+                <div class="text">
+                    <h3> //Shorthand for row start and end </h3>
+                    <p> grid-row: grid-row-start grid-row-end</p>
+                </div>
+
+                <div class="text">
+                    <h3> //Give a grid area name to a grid item </h3>
+                    <p> grid-area: name || row-start / column-start / row-end / column-end</p>
+                </div>
+
+                <div class="text">
+                    <h3> //Aligns a grid-item inside a cell along the row / inline axis</h3>
+                    <p> justify-self: start || end || center || stretch</p>
+                </div>
+
+                <div class="text">
+                    <h3> //Aligns a grid-item inside a cell along the column / block axis</h3>
+                    <p> align-self: start || end || center || stretch</p>
+                </div>
+
+                <div class="text">
+                    <h3> // aligns a grid-item inside a cell along the row / inline and column / block axis </h3> 
+                    <p> place-self: align-self justify-self</p>
+                </div>
+                
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+                <div class="text">
+
+                </div>
+
+            </div>
+    </body>
+</html>
