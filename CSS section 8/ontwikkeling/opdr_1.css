@@ -1,0 +1,17 @@
+.container{
+    display: grid;
+    grid-template-columns: minmax(25rem, min-content);
+
+    grid-template-rows: minmax(25rem, min-content);
+    
+    outline: solid black 5px;
+}
+
+.element{
+    grid-column: 1/2;
+    size: 30rem;
+}
+
+.element1{
+    grid-column:2/3;
+}
