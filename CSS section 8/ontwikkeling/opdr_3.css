@@ -1,5 +1,165 @@
+/*________________________________________________________*/
+/* setup__________________________________________________*/
+/*________________________________________________________*/
+
 .container-1{
     display: grid;
-    grid-template-rows: repeat(10, 50px);
-    grid-template-columns: repeat(2, 100px);
+    grid-template-rows: repeat(26, 50px);
+    grid-template-columns: repeat(3, 150px);
+
+    font-size: 15px;
+}
+
+.Outline{
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  
+/*________________________________________________________*/
+/* placement______________________________________________*/
+/*________________________________________________________*/
+
+/*____________________*/
+/* first column______*/
+/*____________________*/
+
+.part1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.game{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+.Aces{
+    grid-row: 2/3;
+}
+
+.Twos{
+    grid-row: 3/4;
+}
+
+.Threes{
+    grid-row: 4/5;
+}
+
+.Fours{
+    grid-row: 5/6;
+}
+
+.Fives{
+    grid-row: 6/7;
+}
+
+.Sixes{
+    grid-row: 7/8;
+}
+
+.TotalP{
+    grid-row: 8/9;
+}
+.ExtraBonus{
+    grid-row: 9/11;
+}
+
+.TotalPart1{
+    grid-row: 11/12;
+}
+
+/*____________________*/
+/* second column______*/
+/*____________________*/
+
+.Total1{
+ grid-row: 2/3;
+ grid-column: 2/3;
+}
+
+.Total2{
+    grid-row: 3/4;
+    grid-column: 2/3;
+ }
+
+.Total3{
+    grid-row: 4/5;
+    grid-column: 2/3;
+ }
+
+ .Total4{
+    grid-row: 5/6;
+    grid-column: 2/3;
+}
+
+.Total5{
+    grid-row: 6/7;
+    grid-column: 2/3;
+ }
+
+.Total6{
+    grid-row: 7/8;
+    grid-column: 2/3;
+}
+
+.Points{
+    grid-row: 9/11;
+    grid-column: 2/3;
+
+}
+
+/*________________________________________________________*/
+/* placement______________________________________________*/
+/*________________________________________________________*/
+
+/*____________________*/
+/* first column______*/
+/*____________________*/
+
+.br1{
+    grid-row: 12/13;
+}
+
+.part2{
+    grid-row: 13/14;
+}
+
+.Toak{
+    grid-row: 14/15;
+    font-size: 14px;
+}
+
+.Carré{
+    grid-row: 15/16;
+}
+
+.Full{
+    grid-row: 16/17;
+}
+
+.LOW{
+grid-row: 17/18;
+}
+
+.High{
+    grid-row: 18/19;
+}
+
+.Yahtzee{
+    grid-row: 19/20;
+}
+
+.Chance{
+    grid-row: 20/21;
+}
+
+.Tp1{
+    grid-row: 21/22;
+}
+
+.Tp2{
+    grid-row: 22/23;
+}
+
+.Tg{
+    grid-row: 23/24;
 }
