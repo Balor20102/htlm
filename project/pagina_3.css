@@ -105,7 +105,14 @@ footer{
 /*___________________________________________________________________________________________________________________*/
 
 @media only screen and (max-width: 1024px) {
-
+    .container{
+        background-image: linear-gradient(to right bottom, rgba(39, 174, 95, 0.7), rgba(40, 180, 133, 0.7)), url(achtergrond.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 1000px;
+    
+    }
 }
 
 /*___________________________________________________________________________________________________________________*/
