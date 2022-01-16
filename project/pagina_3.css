@@ -1,0 +1,168 @@
+/*________________________________________________________*/
+/*___setup________________________________________________*/
+/*________________________________________________________*/
+
+*{
+    padding: 1px;
+    margin: 0;
+}
+
+/*________________________________________________________*/
+/*___Header_______________________________________________*/
+/*________________________________________________________*/
+
+header{
+    background-color: #27ae60;
+    display: flex;
+    flex-direction: row;
+}
+
+.Taak{  
+    display: block;
+    float:  right;
+
+    padding: 2em 5em;
+    margin-top: 2px;
+    margin-right: 5px;
+
+    font-size: 20px;
+    outline: solid black 3px;
+
+    text-decoration: none;
+    color: black;
+}
+
+.Taak:hover{
+    background-color: #72e09e;
+
+    animation-name: hover;
+    animation-duration: 1s;
+}
+
+.Logo{
+    mix-blend-mode: multiply;
+    width: 100px;
+    height: 100px;
+}
+
+/*________________________________________________________*/
+/*___container____________________________________________*/
+/*________________________________________________________*/
+
+.container{
+    background-image: linear-gradient(to right bottom, rgba(39, 174, 95, 0.7), rgba(40, 180, 133, 0.7)), url(achtergrond.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 800px;
+
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr) ;
+}
+
+/*________________________________________________________*/
+/*___Footer_______________________________________________*/
+/*________________________________________________________*/
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #27ae60;
+    text-decoration: none;
+
+}
+
+.Author{
+    text-align: center;
+}
+
+.Email{
+    text-align: center;
+}
+
+.Number{
+    text-align: center;
+}
+
+.Adres{
+    text-align: center;
+
+}
+/*________________________________________________________*/
+/*___animations___________________________________________*/
+/*________________________________________________________*/
+
+@keyframes hover{
+    from{ background-color: #27ae60;}
+    to { background-color: #72e09e;}
+}
+
+/*___________________________________________________________________________________________________________________*/
+/*___Tablets portait mode____________________________________________________________________________________________*/
+/*___________________________________________________________________________________________________________________*/
+
+@media only screen and (max-width: 1024px) {
+
+}
+
+/*___________________________________________________________________________________________________________________*/
+/*___Tablets________________________________________________________________________________________________________*/
+/*___________________________________________________________________________________________________________________*/
+
+@media only screen and (max-width: 676px) {
+   
+    .Taak{  
+        display: block;
+        float:  right;
+    
+        padding: 1em 3em;
+        margin-top: 2px;
+        margin-right: 5px;
+    
+        font-size: 20px;
+        outline: solid black 3px;
+    
+        text-decoration: none;
+        color: black;
+    }
+ 
+}
+
+/*___________________________________________________________________________________________________________________*/
+/*___phone___________________________________________________________________________________________________________*/
+/*___________________________________________________________________________________________________________________*/
+
+@media only screen and (max-width: 480px) {
+    
+    .Taak{  
+        display: block;
+        float:  right;
+    
+        padding: 1em 2em;
+        margin-top: 2px;
+        margin-right: 5px;
+    
+        font-size: 20px;
+        outline: solid black 3px;
+    
+        text-decoration: none;
+        color: black;
+    }
+
+    .container{
+        background-image: linear-gradient(to right bottom, rgba(39, 174, 95, 0.7), rgba(40, 180, 133, 0.7)), url(achtergrond.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 1000px;
+    
+    
+        display: grid;
+        grid-template-rows: repeat(12, 1fr);
+        grid-template-columns: repeat(1, 1fr) ;
+
+    }   
+}
