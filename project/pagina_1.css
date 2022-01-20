@@ -61,7 +61,7 @@ header{
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 800px;
+    height: 600px;
 
 }
 
@@ -160,7 +160,7 @@ footer{
         background-size: cover;
         background-position: center;
         position: relative;
-        height: 1000px;
+        height: 750px;
     
     }
 }
@@ -173,6 +173,15 @@ footer{
 /*___________________________________________________________________________________________________________________*/
 
 @media only screen and (max-width: 676px) {
+   
+    .container{
+        background-image: linear-gradient(to right bottom, rgba(39, 174, 95, 0.7), rgba(40, 180, 133, 0.7)), url(achtergrond.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 500px;
+    
+    }
    
     .Taak{  
         display: block;
@@ -216,6 +225,15 @@ footer{
 /*___________________________________________________________________________________________________________________*/
 
 @media only screen and (max-width: 480px) {
+    
+    .container{
+        background-image: linear-gradient(to right bottom, rgba(39, 174, 95, 0.7), rgba(40, 180, 133, 0.7)), url(achtergrond.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 500px;
+    
+    }
     
     .Taak{  
         display: block;
