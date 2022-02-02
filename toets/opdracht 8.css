@@ -1,0 +1,251 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+.Home{
+    background-color: red;
+    position: absolute;
+    left: 0%;
+    width: 200px;
+    margin-right: 0px;
+  
+}
+
+.dienst{
+background-color: blue;
+position: absolute;
+left: 15%;
+width: 200px;
+margin-right: 0px;
+}
+
+.producten{
+background-color: purple;
+position: absolute;
+left: 30%;
+width: 200px;
+margin-right: 0px;
+
+}
+
+.Ons{
+background-color: yellow;
+position: absolute;
+left: 45%;
+width: 200px;
+margin-right: 0px;
+
+}
+
+.Onze{
+background-color: green;
+position: absolute;
+left: 60%;
+width: 200px;
+margin-right: 0px;
+}
+
+.contact{
+background-color: pink;
+position: absolute;
+left: 75%;
+width: 200px;
+margin-right: 0px;
+}
+
+
+
+
+
+
+
+@media only screen and ( max-width: 1132px ) {
+    
+    .Home{
+        background-color: red;
+        position: absolute;
+        left: 0%;
+        width: 200px;
+        margin-right: 0px;
+      
+    }
+    
+    .dienst{
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    margin-right: 0px;
+    }
+    
+    .producten{
+    background-color: purple;
+    position: absolute;
+    left: 31%;
+    width: 200px;
+    margin-right: 0px;
+    
+    }
+    
+    .Ons{
+    background-color: yellow;
+    position: absolute;
+    left: 0%;
+    width: 200px;
+    margin-right: 0px;
+    top: 7%;
+    
+    }
+    
+    .Onze{
+    background-color: green;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    margin-right: 0px;
+    top: 7%;
+    }
+    
+    .contact{
+    background-color: pink;
+    position: absolute;
+    left: 31%;
+    width: 200px;
+    margin-right: 0px;
+    top: 7%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and ( max-width: 871px ) {
+    .Home{
+        background-color: red;
+        position: absolute;
+        left: 0%;
+        width: 200px;
+        margin-right: 0px;
+      
+    }
+    
+    .dienst{
+    background-color: blue;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    margin-right: 0px;
+    }
+    
+    .producten{
+    background-color: purple;
+    position: absolute;
+    left: 0%;
+    width: 200px;
+    margin-right: 0px;
+    top: 7%;
+    }
+    
+    .Ons{
+    background-color: yellow;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    margin-right: 0px;
+    top: 7%;
+    
+    }
+    
+    .Onze{
+    background-color: green;
+    position: absolute;
+    left: 0%;
+    width: 200px;
+    margin-right: 0px;
+    top: 14%;
+    }
+    
+    .contact{
+    background-color: pink;
+    position: absolute;
+    left: 15%;
+    width: 200px;
+    margin-right: 0px;
+    top: 14%;
+    }
+
+}
+
+
+
+
+@media only screen and ( max-width: 500px ) {
+    .Home{
+        background-color: red;
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 200px;
+        margin-right: 0px;
+      
+    }
+    
+    .dienst{
+    background-color: blue;
+    position: absolute;
+   top: 10%;
+   left: 0;
+    width: 200px;
+    margin-right: 0px;
+    }
+    
+    .producten{
+    background-color: purple;
+    position: absolute;
+    top:20% ;
+    left: 0;
+    width: 200px;
+    margin-right: 0px;
+    
+    }
+    
+    .Ons{
+    background-color: yellow;
+    position: absolute;
+    top:30% ;
+    left: 0;
+    width: 200px;
+    margin: 0px;
+    
+    }
+    
+    .Onze{
+    background-color: green;
+    position: absolute;
+    top:40% ;
+    left: 0;
+    width: 200px;
+    margin-right: 0px;
+    }
+    
+    .contact{
+    background-color: pink;
+    position: absolute;
+    top:50% ;
+    left: 0;
+    width: 200px;
+    margin-right: 0px;
+    }
+}
